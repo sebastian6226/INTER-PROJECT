@@ -2352,7 +2352,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3653474337023268051, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
+  - {fileID: 2100000, guid: 35eb088d95d7a7041a0ac74c0683aeae, type: 2}
   - {fileID: -640421345888577198, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -2515,9 +2515,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6797980755529243547, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35eb088d95d7a7041a0ac74c0683aeae, type: 2}
     - target: {fileID: -6662823806489092915, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0004
+      value: -0.0007
       objectReference: {fileID: 0}
     - target: {fileID: -5607296209362063135, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
       propertyPath: m_LocalScale.z
@@ -2551,6 +2555,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UNIVERSIDAD INTER
       objectReference: {fileID: 0}
+    - target: {fileID: 4183965279593956781, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35eb088d95d7a7041a0ac74c0683aeae, type: 2}
+    - target: {fileID: 7860409961934568007, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35eb088d95d7a7041a0ac74c0683aeae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6194799959c46fa4793396dfbafb7ada, type: 3}
 --- !u!4 &1746496564 stripped
