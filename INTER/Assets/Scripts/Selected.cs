@@ -34,7 +34,7 @@ public class Selected : MonoBehaviour
                     hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
                 }
             }
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * fDistancia, Color.red);
+            //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * fDistancia, Color.red);
         }
         else
         {
