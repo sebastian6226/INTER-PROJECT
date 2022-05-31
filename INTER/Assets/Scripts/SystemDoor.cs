@@ -19,12 +19,12 @@ public class SystemDoor : MonoBehaviour
     {
         if (doorOpen)
         {
-            Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
+            Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 90);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smooth * Time.deltaTime);
         }
         else
         {
-            Quaternion targetRotation = Quaternion.Euler(0, doorCloseAngle, 0);
+            Quaternion targetRotation = Quaternion.Euler(0, doorCloseAngle, 90);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smooth * Time.deltaTime);
         }
     }
